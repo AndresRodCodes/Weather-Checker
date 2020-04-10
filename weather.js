@@ -1,6 +1,6 @@
 class WeatherModel {
 	constructor(city, state) {
-		this.apiKey = '';
+		this.apiKey = '57606d31b2f137782d0c6cbaf9541483';
 		this.city = city;
 	}
 	// Gets weather data
