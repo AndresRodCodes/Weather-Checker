@@ -11,19 +11,12 @@ class WeatherModel {
 		);
 		// Convert to object
 		const responseData = await response.json();
-
+		console.log(responseData);
 		return responseData;
 	}
-	// getIconURL(iconValue) {
-	// 	// Contruct icon URL
-	// 	const iconURL = `http://openweathermap.org/img/wn/${iconValue}@2x.png`;
-
-	// 	return iconURL;
-	// }
 
 	// Change location
-	changeLocation(city, state) {
+	changeLocation(city) {
 		this.city = city;
-		this.state = state;
 	}
 }
